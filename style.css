@@ -27,6 +27,9 @@ body {
     font-size: 20px;
     text-align: center;
 }
+.generate-btn:hover{
+    background-color: rgb(98, 101, 144);
+}
 .generate-btn:focus{
     outline: none;
     box-shadow: none;
@@ -86,6 +89,9 @@ color: #E0B612;
     border-radius: 5px;
     background: #495BC3;
     color: #fff;
+}
+.button:hover{
+    border: solid 1px wheat;
 }
 .notify {
     color: #fff;
