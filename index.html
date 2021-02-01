@@ -13,7 +13,7 @@
             <div class="col-md-6">
                 <div class="pin-generator half-width">
                     <input id="pin" class="form-control" type="text">
-                    <button onclick="generatePin()" class="generate-btn">Generate Pin</button>
+                    <button id="pin-generate" onclick="generatePin()" class="generate-btn">Generate Pin</button>
                 </div>
             </div>
             <div class="col-md-6">
@@ -37,9 +37,9 @@
                               <div class="button">3</div>
                             </div>
                             <div class="calc-button-row">
-                                <div class="button"><</div>
+                                <div id="backspace" class="button"><</div>
                                 <div class="button">0</div>
-                                <div class="button">C</div>
+                                <div id="clear" class="button">C</div>
                             </div>
                             <div>
                                 <button onclick="checkPin()" type="submit" class="submit-btn">Submit</button>
