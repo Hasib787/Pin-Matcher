@@ -29,3 +29,17 @@ buttonContainer.addEventListener('click', function (event) {
         typedInput.value = typedInput.value + digit;
     }
 })
+
+
+//check Pin
+function checkPin() {
+    const pin = document.getElementById('pin').value;
+    const typedPin = document.getElementById('typed-pin').value;
+    if (pin === typedPin) {
+        const correct = document.getElementById('correct-pin');
+        correct.style.display = 'block';
+    } else {
+        const incorrect = document.getElementById('incorrect-pin');
+        incorrect.style.display = 'block';
+    }
+}
